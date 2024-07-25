@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #3700ff;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .cta-button {
+    background: hwb(229 0% 0%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+#descripcion, #beneficios, #testimonios, #cta, #formulario {
+    padding: 50px 0;
+}
+
+.beneficio, .testimonio {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
